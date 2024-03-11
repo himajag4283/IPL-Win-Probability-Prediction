@@ -72,6 +72,7 @@ learning. It is designed to be beginner-friendly, allowing users to transform da
 shareable web apps with minimal effort. 
 The Streamlit frontend code represents a user-friendly interface for predicting the win 
 probability of IPL matches based on key match parameters.
+
 <img width="479" alt="image" src="https://github.com/HimajaGgithub/Project4-IPL-Win-Probability-Prediction/assets/106176277/505a2706-4095-4f79-b1b6-9af3b48af0c3">
 <img width="480" alt="image" src="https://github.com/HimajaGgithub/Project4-IPL-Win-Probability-Prediction/assets/106176277/70ff3494-fa5e-4f89-aaf9-cac1d4c57bda">
 
