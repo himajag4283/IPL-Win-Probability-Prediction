@@ -26,7 +26,7 @@ with st.container():
 
         - **Get predicted winning percentages**: By selecting the Predict probability option on the navigation pane you can try it out yourself.
 
-        - I have used Logistic regression to show the winning probability percentage of both the teams (modified)
+        - Weeee have used Logistic regression to show the winning probability percentage of both the teams (modified)
         
         """
     )
