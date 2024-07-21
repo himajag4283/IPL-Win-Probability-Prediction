@@ -26,7 +26,7 @@ with st.container():
 
         - **Get predicted winning percentages**: By selecting the Predict probability option on the navigation pane you can try it out yourself.
         
-        - "We have used logistic regression to get the winning probability percentage of both the teams (modified) "
+        - "I have used logistic regression to get the winning probability percentage of both the teams (modified) "
         """
         
     )
