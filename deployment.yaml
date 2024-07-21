@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: iplwinpredictor-deployment
+  namespace: himajag
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: iplwinpredictor
+  template:
+    metadata:
+      labels:
+        app: iplwinpredictor
+    spec:
+      containers:
+      - name: iplwinpredictor
+        image: himajag4283/iplwinpredictor
+        ports:
+        - containerPort: 8501

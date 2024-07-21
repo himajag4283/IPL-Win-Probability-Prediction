@@ -1,4 +1,4 @@
-#official Python image from the Docker Hub
+#official image from the Docker Hub
 FROM python:3.12-slim
 
 ENV PYTHONUNBUFFERED=1
@@ -9,11 +9,12 @@ COPY requirements.txt /app/
 
 RUN pip install --no-cache-dir -r requirements.txt
 
+RUN mkdir /app/images
+
 COPY . /app/
 
-COPY th.jpeg /app/images
-
-COPY IPL-2020-all-teams-logos.jpg /app/images
+COPY th.jpeg /app/images/
+COPY IPL-2020-all-teams-logos.jpg /app/images/
 
 EXPOSE 8501
 
