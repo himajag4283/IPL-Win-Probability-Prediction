@@ -25,8 +25,9 @@ with st.container():
         - **Input Parameters**: Enter the target score, current score, overs completed, wickets down.
 
         - **Get predicted winning percentages**: By selecting the Predict probability option on the navigation pane you can try it out yourself.
-
-        - Weeee have used Logistic regression to show the winning probability percentage of both the teams (modified)
         
+        - "We have used logistic regression to get the winning probability percentage of both the teams (modified) "
         """
+
+        
     )
