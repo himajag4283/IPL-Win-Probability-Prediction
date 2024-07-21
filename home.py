@@ -9,10 +9,10 @@ with st.container():
     st.write(
         "This app can predict the real-time winning probabilities of each team based on second innings score!!"
     )
-    image = Image.open(r'E:\7th sem\machine_project\th.jpeg')
+    image = Image.open(r'D:\PROJECT\IPL-Win-Probability-Prediction\th.jpeg')
     st.image(image, width=400)
     st.write("The teams are: ")
-    image = Image.open(r'E:\7th sem\machine_project\IPL-2020-all-teams-logos.jpg')
+    image = Image.open(r'D:\PROJECT\IPL-Win-Probability-Prediction\IPL-2020-all-teams-logos.jpg')
     st.image(image, width=400)
 
 with st.container():
